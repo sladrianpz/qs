@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style2.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <script src="javascript/script2.js" defer></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <header id="header">
+        <div class="container">
+            <div class="flex">
+                <i class="fa-solid fa-guitar" id="nav_logo">JAZZ</i>
+                <nav>
+                    <ul>
+                        <li><a href="#">HISTORIA</a></li>
+                        <li><a href="#">SOBRE</a></li>
+                        <li><a href="#">LOGIN</a></li>
+                        <li><a href="#">REGISTRE-SE</a></li>
+                    </ul>
+                </nav>
+                <div class="btn-contato"><a href="#"><button>CONTATO</button></a></div>
+            </div>
+        </div>
+    </header>
+    <section class="banner1">
+        <h1 class="titulo">HISTORIA DO <span>JAZZ</span></h1>
+        <div class="conteudo">
+            <p> Origens (Final do século XIX - Início do século XX)
+                O jazz surgiu no final do século XIX e início do século XX nos Estados Unidos, particularmente em Nova Orleans, uma cidade conhecida por sua diversidade cultural. Suas raízes podem ser rastreadas até as tradições musicais africanas, europeias e afro-americanas, incluindo:
+                <br>
+                Blues: Uma forma musical caracterizada por progressões de acordes simples e expressões emotivas.
+                <br>
+                Este período é marcado pela improvisação coletiva e pelo uso de instrumentos como trompete, clarinete, trombone, tuba, banjo, e bateria. Bandas notáveis incluem a Original Dixieland Jass Band e músicos como Louis Armstrong, que mais tarde se tornaria uma figura central no jazz.
+                <br>
+                Era do Swing (Décadas de 1930-1940)
+                O swing se tornou a forma dominante de música popular nos Estados Unidos. Caracterizado por grandes bandas e arranjos orquestrais, foi um período em que o jazz se tornou amplamente aceito e comercializado. Líderes de bandas como Duke Ellington, Count Basie e Benny Goodman foram extremamente influentes.
+                <br>
+                Bebop (Década de 1940)
+                Em contraste com o swing, o bebop era mais complexo e menos acessível para o público em geral. Este estilo focava na improvisação virtuosa e em composições rápidas e intrincadas. Músicos como Charlie Parker, Dizzy Gillespie e Thelonious Monk foram pioneiros do bebop.
+                <br>
+                Cool Jazz e Hard Bop (Década de 1950)
+                Cool Jazz: Desenvolveu-se como uma reação ao bebop, enfatizando um som mais suave e arranjos mais controlados. Artistas notáveis incluem Miles Davis e Dave Brubeck. <br>
+                Hard Bop: Uma extensão do bebop que incorporou elementos de blues, gospel e R&B. Músicos como Art Blakey e Horace Silver foram figuras-chave.
+                Modal Jazz e Free Jazz (Décadas de 1950-1960) <br>
+                Modal Jazz: Popularizado por Miles Davis no álbum "Kind of Blue", este estilo utiliza modos em vez de progressões de acordes tradicionais para a base harmônica.
+                Free Jazz: Caracterizado pela ausência de estrutura predefinida, promovendo total liberdade na improvisação. Ornette Coleman e John Coltrane foram pioneiros deste movimento.
+                Jazz Fusion (Décadas de 1970-1980)
+                O jazz fusion combina elementos do jazz com rock, funk e outras influências. Bandas e músicos como Weather Report, Herbie Hancock, e Miles Davis (novamente inovador) foram fundamentais na criação deste estilo.
+                Impacto Cultural e Social <br><br>
+                O jazz teve um impacto profundo na cultura e sociedade americanas e globais, influenciando a música popular, a moda, a linguagem e os movimentos sociais. Ele desempenhou um papel crucial na luta pelos direitos civis nos Estados Unidos, servindo como uma plataforma para expressão artística e resistência cultural.
+                
+                A história do jazz é um testemunho da criatividade humana e da capacidade de evolução contínua na música. Ele continua a inspirar novas gerações de músicos e ouvintes em todo o mundo.</p>
+
+
+        </div>
+    </section></p>
+        </div>
+    </section>
+    <div class="interface2">
+        <section class="banner2">
+            <div class="elementos2">
+                <div class="conteudo2">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit...</p>
+                </div>
+                <h1 class="titulo2">OS MAIORES <br> <span class="artistas">ARTISTAS</span></h1>
+            </div>
+        </section>
+        <section class="banner3">
+            <div class="elementos3">
+                <div class="container2">
+                    <div class="header2">
+                        <span>ADICIONAR ARTISTAS FAVORITOS</span>
+                        <button onclick="openModal()" id="new">Adicionar</button>
+                    </div>
+                    <div class="divTable">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Nome</th>
+                                    <th>Descrição</th>
+                                    <th class="acao">Editar</th>
+                                    <th class="acao">Excluir</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                            </tbody>
+                        </table>
+                    </div>    
+                    <div class="modal-container">
+                        <div class="modal">
+                            <form action="">
+                                <label for="m-nome">Nome</label>
+                                <input id="m-nome" type="text" required>
+                                <label for="m-descricao">Descrição</label>
+                                <input id="m-descricao" type="text" required>
+                                <button id="btnSalvar">Salvar</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
